@@ -1,0 +1,202 @@
+/* Owen Schneider CSS file */
+
+	/* Background color, text font amd size */
+/*body {
+font-family: verdana;
+font-size: 12px;
+color: DarkSlateGray;
+line-height: 1.5;
+margin: 0;
+padding: 0;
+background: BlanchedAlmond ;} */
+
+	/* Background image, text font and size */
+  body {
+font-family: garamond;
+font-size: 15px;
+font-weight: 700;
+color: Black;
+line-height: 1.5;
+margin: 0;
+padding: 0;
+background-image: url(images/background.png);}   
+
+
+
+
+	/* Changing font and size for headings */
+h1, h2, h3 {font-family:garamond, serif; font-weight: 900;}
+
+h1 {font-size: 200%; color: #f51b0a;}
+h2 {font-size: 170%; color: #f51b0a;}
+h3 {font-size: 150%; color: #f51b0a;}
+h4 {font-size: 110%; color: #f51b0a;}
+
+	/* Margins */
+p, h1, h2, ol, ul {
+margin-top: 0;
+margin-bottom: 1px;
+}
+
+	/*white space around ordered list */
+ol {
+padding-left:0;
+margin-left:30px;
+}
+
+
+	/*image borders*/
+img {
+padding: 4px;
+border: 1px solid black;
+background-color: white; }
+
+
+	/* styling for links */
+a {
+color: black;
+font-weight: bold;
+text-decoration: none;
+border-bottom: 1px solid #898989;
+padding-bottom: 1px; }
+
+
+
+	/* pseudo classes to make change to style - this changes the look of links */
+a:visited { color: #4a2885; }
+
+a:hover, a:focus, a:active {backgrond-color: #fff5e8; color: #f51b0a; border-bottom-color: #fdebcf; }
+
+
+	/* mess with the wrapper div - adds a wrap around the site */
+div#wrapper {
+width: 728px;
+margin-left:auto;
+margin-right:auto;
+margin-top:10px;
+margin-bottom:10px;
+background-image: url(images/paper_backsm.jpg);
+background-repeat: repeat-y;
+background-position: left top;
+background-attachment: scroll;
+border: 2px dotted black;
+}
+
+	/* week 10 work */
+article { float: left;
+width: 500px;
+padding-left: 10px;  }
+
+nav { float: right;
+width: 200px;
+padding-right: 5px; }
+
+
+	/* adding banners on each page */
+
+/* make room for banner */
+header {
+height:90px;
+margin-bottom:20px; }
+
+header h1, header p {
+text-indent: -9999999px; }
+
+/* add the banner image to home page */
+.home header {
+background: white url(images/home.png) no-repeat; }
+.character header {
+background: white url(images/character.png) no-repeat; }
+.rules header {
+background: white url(images/rules.png) no-repeat; }
+.equipment header {
+background: white url(images/equipment.png) no-repeat; }
+.action header {
+background: white url(images/actions.png) no-repeat; }
+.other header {
+background: white url(images/other.png) no-repeat; }
+
+
+	/* week 10 work for footer */
+footer {
+clear:both;
+padding: 10px;
+font-size: 75%;
+height: 1%;
+background-color: #f51b0a;
+color: Black;
+border-top: 2px dotted #464646 }
+
+footer p { margin-bottom: 0; }
+
+footer a:link {
+color: yellow; }
+
+foote a:hover, footer a:focus, footer a:active {
+background-color: transparent;
+border: none; }
+
+
+	/* week 10 work nav button customize */
+nav ul {
+list-style-type: none;
+border: 1px solid #aabadd;
+margin-left: 0;
+padding-left: 5px;
+border-bottom: none;
+display: block;
+line-height: 2; }
+
+nav a {
+display: block;
+background: BlanchedAlmond;
+padding-left: 1px;
+line-height: 2;
+border-bottom-color: Black;
+height: 1%; }
+
+nav a:hover {
+background-color: white: }
+
+nav li {
+display: inline; }
+
+	/* week 10 table styling */
+table { border: 1px solid black; }
+caption { display: none; }
+
+thead {
+color: Black;
+background-color: #f51b0a;
+text-align: left }
+
+tbody { 
+font-family: Georgia, serif;
+font-size: 90%; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
